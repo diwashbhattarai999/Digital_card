@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.App,
+.digitalCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.App{
+    background-color: #23252C;
+    width: 100%;
+    height: 100vh;
+}
+
+.digitalCard{
+    flex-direction: column;
+    background-color: #1A1B21;
+    border-radius: 10px;
+    width: 330px;
+}
+
+.digitalCard-info{
+    width: 80%;
+}
+
+.profile,
+.footer{
+    width: 100%;
+}
+.profile img{
+    width: 100%;
+    /* height: 300px; */
+    aspect-ratio: 1;
+    border-radius: 10px 10px 0 0;
+}
+
+.profile-info{
+    text-align: center;
+}
+
+.profile-info h1{
+    color: #FFFFFF;
+    font-size: 25px;
+    font-family: 'Inter', sans-serif;
+}
+.profile-info h2{
+    color: #F3BF99;
+    font-family: 'Inter', sans-serif;
+    font-size: 12.8px;
+    margin: .2rem 0 .8rem 0;
+}
+.profile-info p{
+    color: #F5F5F5;
+    font-family: 'Inter', sans-serif;
+    font-size: 10.24px;
+}
+
+.btn{
+    margin-top: 1rem;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+}
+.btn1,
+.btn2{
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    padding: .5rem 1.2rem;
+}
+.btn1{
+    background-color: #FFFFFF;
+    color: #1E1F26;
+}
+.btn2{
+    background-color: #5093E2;
+    color: #FFFFFF;
+}
+.btn1 p,
+.btn2 p{
+    margin-left: .3rem;
+}
+
+.about p,
+.interest p{
+    font-size: .8rem;
+    color: #DCDCDC;
+}
+
+.about h1,
+.interest h1{
+    margin-top: 1rem;
+    margin-bottom: .4rem;
+    font-size: 1.4rem;
+    color: #F5F5F5;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #161619;
+    margin-top: 1rem;
+    padding: .8rem 5rem;
+    border-radius: 0 0 10px 10px;
+}
+
+.footer a{
+    background-color: #918E9B;
+    border-radius: 4px;
+}
