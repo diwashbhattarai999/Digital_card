@@ -4,8 +4,7 @@ This Scrimba project is a digital business card for Diwash Bhattarai, built usin
 
 ## Screenshot 🖨️
 
-<img width="496" alt="Screenshot 2023-01-13" src="https://user-images.githubusercontent.com/87477700/212306593-8ae9ea9d-c108-45f0-86c6-34178522ea6c.png">
-
+<img width="496" alt="Screenshot 2023-01-13" src="https://user-images.githubusercontent.com/87477700/212308520-46752b5a-972b-483c-ac98-6281e0647398.png">
 
 
 ## Link 🔗
